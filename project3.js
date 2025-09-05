@@ -1,4 +1,4 @@
-"use strict";
+
 function getRandomId(min = 1, max = 1000) {
     return Math.floor(Math.random() * (max - min) + min);
 }
@@ -108,3 +108,4 @@ const showToast = (message, type = "success", duration = 3000) => {
 document.addEventListener("DOMContentLoaded", function () {
     generateTable();
 });
+
